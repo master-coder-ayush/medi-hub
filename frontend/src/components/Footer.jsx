@@ -94,7 +94,7 @@ function Footer() {
             <h1 className="text-lg text-left md:text-center lg:text-xl font-semibold mb-6">
               Quick Links
             </h1>
-            <ul className="flex flex-col justify-between gap-3 md:items-center text-md font-semibold md:gap-y-4  text-left">
+            <ul className="flex flex-col justify-between gap-3 md:items-center font-semibold md:gap-y-4 text-left md:text-center">
               {navLinks.map((link, index) => (
                 <li key={index}>
                   <NavLink
