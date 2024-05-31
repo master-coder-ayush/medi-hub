@@ -51,7 +51,7 @@ function Contributors() {
           your healthcare needs
         </p>
         {/* cards */}
-        <div className="grid grid-rows-1 grid-flow-col gap-x-6 gap-y-4 md:gap-y-10 lg:py-8 mt-12 md:mt-14 lg:mt-20 px-3 overflow-hidden w-full ">
+        <div className="grid grid-rows-1 grid-flow-col gap-x-6 gap-y-4 md:gap-y-10 lg:py-8 mt-12 md:mt-14 lg:mt-20 px-3 overflow-hidden w-full overflow-x-auto no-scrollbar">
           {data.map((contributor, index) => (
             <div
               key={index}
